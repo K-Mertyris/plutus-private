@@ -17,16 +17,40 @@ milestones, they'll disappear from the minor and major sections and move to the
 archive section, but you can go back through the history of this doc to see when
 each milestone/task was completed.
 
+### Milestone Archive
+
+See [Milestone Archive](/milestone-archive.md) for completed activities.
+
 ### Minor Milestones
 
 ---
 
-- [X] Update path via PowerShell to recognize the `python` command and run
-  Python 3.x
-- [X] Upgrade pip
-- [X] Create a virtual environment in the `plutus-private` repo
 - [ ] Draft steps to parse a CSV file (see [path to
   automation](#path-to-automation))
+  - [ ] Create template CSV file based on bank info
+  - [ ] Create template CSV file based on utility info
+  - [ ] Consolidate where possible, find common values and group
+  - [ ] Crosswalk templates to proposed database structure, ID gaps
+  - [ ] Create Python function to read data from bank CSV
+  - [ ] Create Python function to read data from utility CSV
+  - [ ] Create Python function to store data in a dataframe variable
+    - Likely to use the Pandas library here
+    - Add Pandas dependency to virtual environment
+    - Single dataframe object for bank info
+    - Single dataframe object for utility info
+  - [ ] Research patterns -
+    - [ ] Python writing to a file, then having SQL pick up the file to process
+      on a schedule (pull pattern)
+    - [ ] Python writing directly to a temp table in the Dev environment, SQL
+      processes data on a schedule (push pattern)
+    - [ ] SQL calling python script to read data directly into the DB
+  - [ ] Research testing
+  - [ ] Research GitHub pipelines
+    - [ ] Research badges (Black, linting, passing tests)
+- [ ] Pause Python development
+- [ ] Start database development
+  - [ ] Create MVP database and data structure to house data coming from Python
+    MVP app
 
 ### Major Milestones
 
@@ -61,12 +85,8 @@ each milestone/task was completed.
   getting to this point)
 - [ ] Automate the entire process
 
-### Milestone Archive
-
----
-
-In Progress
-
 ## Links
 
 Section for links (research, etc.)
+
+1. [Goals Repository](https://github.com/K-Mertyris/2022-goals)
