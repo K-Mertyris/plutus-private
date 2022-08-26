@@ -127,3 +127,6 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+# Ignore private folder, contains draft and incomplete info
+/draft-private/
