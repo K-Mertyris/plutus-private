@@ -25,9 +25,9 @@ See [Milestone Archive](/milestone-archive.md) for completed activities.
 
 ---
 
-- [ ] Draft steps to parse a CSV file (see [path to
+- [X] Draft steps to parse a CSV file (see [path to
   automation](#path-to-automation))
-  - [ ] Create template CSV file based on bank info
+  - [X] Create template CSV file based on bank info
   - [ ] Create template CSV file based on utility info
   - [ ] Consolidate where possible, find common values and group
   - [ ] Crosswalk templates to proposed database structure, ID gaps
