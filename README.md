@@ -25,28 +25,25 @@ See [Milestone Archive](/milestone-archive.md) for completed activities.
 
 ---
 
-- [X] Draft steps to parse a CSV file (see [path to
-  automation](#path-to-automation))
-  - [X] Create template CSV file based on bank info
-  - [ ] Create template CSV file based on utility info
-  - [ ] Consolidate where possible, find common values and group
-  - [ ] Crosswalk templates to proposed database structure, ID gaps
-  - [ ] Create Python function to read data from bank CSV
-  - [ ] Create Python function to read data from utility CSV
-  - [ ] Create Python function to store data in a dataframe variable
-    - Likely to use the Pandas library here
-    - Add Pandas dependency to virtual environment
-    - Single dataframe object for bank info
-    - Single dataframe object for utility info
-  - [ ] Research patterns -
-    - [ ] Python writing to a file, then having SQL pick up the file to process
-      on a schedule (pull pattern)
-    - [ ] Python writing directly to a temp table in the Dev environment, SQL
-      processes data on a schedule (push pattern)
-    - [ ] SQL calling python script to read data directly into the DB
-  - [ ] Research testing
-  - [ ] Research GitHub pipelines
-    - [ ] Research badges (Black, linting, passing tests)
+- [ ] Create template CSV file based on utility info - **paused**
+- [ ] Consolidate where possible, find common values and group - **paused**
+- [ ] Crosswalk templates to proposed database structure, ID gaps - **paused**
+- [ ] Create Python function to read data from bank CSV - **in progress**
+- [ ] Create Python function to read data from utility CSV
+- [ ] Create Python function to store data in a dataframe variable
+- Likely to use the Pandas library here
+- [X] Add Pandas dependency to virtual environment
+- Single dataframe object for bank info
+- Single dataframe object for utility info
+- [ ] Research patterns -
+- [ ] Python writing to a file, then having SQL pick up the file to process
+    on a schedule (pull pattern)
+- [ ] Python writing directly to a temp table in the Dev environment, SQL
+    processes data on a schedule (push pattern)
+- [ ] SQL calling python script to read data directly into the DB
+- [ ] Research testing
+- [ ] Research GitHub pipelines
+- [ ] Research badges (Black, linting, passing tests)
 - [ ] Pause Python development
 - [ ] Start database development
   - [ ] Create MVP database and data structure to house data coming from Python
