@@ -17,6 +17,8 @@ In Progress
   Python 3.x
 - [X] Upgrade pip
 - [X] Create a virtual environment in the `plutus-private` repo
+- [X] Draft steps to parse a CSV file
+- [X] Create template CSV file based on bank info
 
 ## Links
 

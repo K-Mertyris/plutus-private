@@ -24,4 +24,12 @@ Computer Setup:
 
 Environment:
 
-1. Create a virtual environment `
+1. Create a virtual environment
+2. Activate environment
+   1. PowerShell
+      1. `venv\Scripts\Activate.ps1`
+3. Install packages - `pip install <package name>` (first time only)
+   1. Pandas
+   2. Black
+4. Create file
+5. Code
