@@ -5,4 +5,14 @@
     a variable
 """
 
+# import pandas library for dataframes
 import pandas as pd
+
+# create an empty dataframe
+my_df = pd.DataFrame()
+
+# read bank file
+my_df = pd.read_csv('../draft-private/bank.csv')
+
+# print output
+print(my_df)

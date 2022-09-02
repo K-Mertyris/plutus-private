@@ -29,6 +29,7 @@ See [Milestone Archive](/milestone-archive.md) for completed activities.
 - [ ] Consolidate where possible, find common values and group - **paused**
 - [ ] Crosswalk templates to proposed database structure, ID gaps - **paused**
 - [ ] Create Python function to read data from bank CSV - **in progress**
+  - Some issues with running it in a virtual env from within the IDE
 - [ ] Create Python function to read data from utility CSV
 - [ ] Create Python function to store data in a dataframe variable
 - Likely to use the Pandas library here
