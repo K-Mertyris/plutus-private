@@ -12,7 +12,7 @@ import pandas as pd
 my_df = pd.DataFrame()
 
 # read bank file
-my_df = pd.read_csv('../draft-private/bank.csv')
+my_df = pd.read_csv('.\\draft-private\\bank.csv')
 
 # print output
 print(my_df)
