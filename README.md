@@ -28,20 +28,24 @@ See [Milestone Archive](/milestone-archive.md) for completed activities.
 - [ ] Create template CSV file based on utility info - **paused**
 - [ ] Consolidate where possible, find common values and group - **paused**
 - [ ] Crosswalk templates to proposed database structure, ID gaps - **paused**
-- [ ] Create Python function to read data from bank CSV - **in progress**
-  - Some issues with running it in a virtual env from within the IDE
-- [ ] Create Python function to read data from utility CSV
-- [ ] Create Python function to store data in a dataframe variable
-- Likely to use the Pandas library here
+- [X] Create Python function to read data from bank CSV
+  - ~~Some issues with running it in a virtual env from within the IDE~~
+- [ ] Create Python function to read data from utility CSV - **paused**
+- [X] Create Python function to store data in a dataframe variable
+  - Likely to use the Pandas library here
 - [X] Add Pandas dependency to virtual environment
 - Single dataframe object for bank info
 - Single dataframe object for utility info
+- [ ] Create regex to add pipes to bank CSV for processing
+- [ ] Automate regex script run (add to `plutus-intake`?)
+  - Maybe hardcoding this isn't the best idea? Could hardcode then refactor
+    later after MVP is working
 - [ ] Research patterns -
-- [ ] Python writing to a file, then having SQL pick up the file to process
-    on a schedule (pull pattern)
-- [ ] Python writing directly to a temp table in the Dev environment, SQL
-    processes data on a schedule (push pattern)
-- [ ] SQL calling python script to read data directly into the DB
+  - [ ] Python writing to a file, then having SQL pick up the file to process on
+      a schedule (pull pattern)
+  - [ ] Python writing directly to a temp table in the Dev environment, SQL
+      processes data on a schedule (push pattern)
+  - [ ] SQL calling python script to read data directly into the DB
 - [ ] Research testing
 - [ ] Research GitHub pipelines
 - [ ] Research badges (Black, linting, passing tests)
