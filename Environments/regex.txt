@@ -1,0 +1,10 @@
+This is the regex used to parse the bank file. Will add documentation to the
+README next session
+
+\t
+
+|
+
+(\d+/\d+/\d+\|)\n(.*)\n(.*)\n(.*)
+
+$1$2|$3|$4
