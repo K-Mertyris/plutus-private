@@ -28,15 +28,13 @@ See [Milestone Archive](/milestone-archive.md) for completed activities.
 - [ ] Create template CSV file based on utility info - **paused**
 - [ ] Consolidate where possible, find common values and group - **paused**
 - [ ] Crosswalk templates to proposed database structure, ID gaps - **paused**
-- [X] Create Python function to read data from bank CSV
-  - ~~Some issues with running it in a virtual env from within the IDE~~
 - [ ] Create Python function to read data from utility CSV - **paused**
-- [X] Create Python function to store data in a dataframe variable
-  - Likely to use the Pandas library here
-- [X] Add Pandas dependency to virtual environment
-- Single dataframe object for bank info
-- Single dataframe object for utility info
+- [X] Update `plutus-intake` to parse bank info as a pipe-delimited CSV file
 - [ ] Create regex to add pipes to bank CSV for processing
+  - [ ] Open file
+  - [ ] Store data from file into variable
+  - [ ] Parse data using regex
+  - [ ] Output data to file
 - [ ] Automate regex script run (add to `plutus-intake`?)
   - Maybe hardcoding this isn't the best idea? Could hardcode then refactor
     later after MVP is working

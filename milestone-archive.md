@@ -19,6 +19,11 @@ In Progress
 - [X] Create a virtual environment in the `plutus-private` repo
 - [X] Draft steps to parse a CSV file
 - [X] Create template CSV file based on bank info
+- [X] Create Python function to read data from bank CSV
+  - ~~Some issues with running it in a virtual env from within the IDE~~
+- [X] Create Python function to store data in a dataframe variable
+  - Likely to use the Pandas library here
+- [X] Add Pandas dependency to virtual environment
 
 ## Links
 
