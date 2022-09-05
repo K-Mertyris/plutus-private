@@ -5,14 +5,17 @@
     a variable
 """
 
-# import pandas library for dataframes
+# import pandas library for dataframes, import re for regex
 import pandas as pd
+import re
+
+# TEST: read unformatted csv file, store data, display
 
 # create an empty dataframe
 my_df = pd.DataFrame()
 
 # read bank file
-my_df = pd.read_csv('.\\draft-private\\bank.csv')
+my_df = pd.read_csv('.\\draft-private\\bank.csv', sep='|')
 
 # print output
 print(my_df)
